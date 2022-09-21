@@ -9,6 +9,7 @@ body { padding-bottom: 20px; }
 }
 
 @media (min-width: 768px) { .bd-placeholder-img-lg { font-size: 3.5rem; } }
+
 .b-example-divider {
   height: 3rem;
   background-color: rgba(0, 0, 0, 0.1);
@@ -16,21 +17,25 @@ body { padding-bottom: 20px; }
   border-width: 1px 0;
   box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
+
 .b-example-vr {
   flex-shrink: 0;
   width: 1.5rem;
   height: 100vh;
 }
+
 .bi {
   vertical-align: -0.125em;
   fill: currentColor;
 }
+
 .nav-scroller {
   position: relative;
   z-index: 2;
   height: 2.75rem;
   overflow-y: hidden;
 }
+
 .nav-scroller .nav {
   display: flex;
   flex-wrap: nowrap;
@@ -41,31 +46,37 @@ body { padding-bottom: 20px; }
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+
 .hero-section {
   background-image: url("https://dummyimage.com/1920X1280");
   height: 60vh; display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
+
 .title {
   font-size: 40px;
   margin: auto;
   text-align: center;
 }
+
 .description {
   margin: auto;
   text-align: center;
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
 .icons {
   display: flex;
   flex-direction: row;
   list-style-type: none;
   justify-content: center;
 }
+
 .icons > li {
   margin-left: 20px;
   margin-top: 5px;
 }
+
 .icons > li:hover { color: #fff; }
