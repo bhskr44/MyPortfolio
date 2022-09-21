@@ -49,7 +49,8 @@ body { padding-bottom: 20px; }
 
 .hero-section {
   background-image: url("https://dummyimage.com/1920X1280");
-  height: 60vh; display: flex;
+  height: 60vh;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
