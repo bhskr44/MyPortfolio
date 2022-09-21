@@ -1,5 +1,4 @@
 body { padding-bottom: 20px; }
-.navbar { margin-bottom: 20px; }
 .bd-placeholder-img { font-size: 1.125rem; text-anchor: middle; -webkit-user-select: none; -moz-user-select: none; user-select: none; }
 
 @media (min-width: 768px) { .bd-placeholder-img-lg { font-size: 3.5rem; } }
@@ -25,19 +24,10 @@ body { padding-bottom: 20px; }
     padding-bottom: 1rem;
     margin-top: -1px;
     overflow-x: auto;
-    text-align: center;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
- }
-
-.hero-section{
-    background-image: url("https://dummyimage.com/1920X1280");
-    height: 60vh;
-    display: flex;
-    justify-content: space-around;
- }
-.title{
-    font-size: 40px;
-    margin:auto;
-    text-align:center;
- }
+    text-align: center; white-space: nowrap; -webkit-overflow-scrolling: touch; }
+.hero-section{ background-image: url("https://dummyimage.com/1920X1280"); height: 60vh; display: flex; flex-direction: column; justify-content: space-around; }
+.title{ font-size: 40px; margin:auto; text-align:center; }
+.description{ margin:auto; text-align:center; padding-left: 1rem; padding-right: 1rem; }
+.icons{  display: flex; flex-direction: row; list-style-type:none; justify-content: center; }
+.icons>li { margin-left: 20px; margin-top: 5px;}
+.icons>li:hover{ color: #fff; }
