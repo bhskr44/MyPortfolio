@@ -65,6 +65,7 @@ header > .button {
   font-size: 40px;
   margin-top: 12px;
   margin-bottom: 0;
+  color: #172b4d;
 }
 
 .description {
@@ -72,6 +73,7 @@ header > .button {
   font-size: 16px;
   text-align: left;
   font-weight: regular;
+  color: #344563;
 }
 
 ul {
@@ -83,7 +85,7 @@ ul {
   padding: 0;
 }
 
-.icons > ul > li {
+.icons > ul > li > a {
   margin-left: 20px;
   margin-top: 5px;
   color: #505f79;
