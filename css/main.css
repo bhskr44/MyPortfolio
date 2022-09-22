@@ -1,5 +1,5 @@
-*{
-  font-family: 'Open Sans';
+* {
+  font-family: 'Open Sans',sans-serif;
   font-weight: 700;
 }
 
@@ -14,7 +14,7 @@ header {
   justify-content: space-between;
 }
 
-.logo >img{
+.logo > img {
   width: 80px;
   height: 80px;
   padding: 10px;
@@ -39,15 +39,14 @@ header > .button {
 }
 
 .title > h1 {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .description {
   margin: auto;
   font-size: 14px;
   text-align: left;
-  font-weight:200;
-
+  font-weight: normal;
 }
 
 ul {
@@ -55,8 +54,8 @@ ul {
   flex-direction: row;
   list-style-type: none;
   justify-content: flex-start;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .icons > ul > li {
@@ -64,8 +63,8 @@ ul {
   margin-top: 5px;
 }
 
-.icons > ul > li:hover { color: #7F8CFF; }
+.icons > ul > li:hover { color: #7F8cff; }
 
-.social{
-  color: #7F8CFF;
+.social {
+  color: #7F8cff;
 }
