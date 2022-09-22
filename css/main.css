@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
 
 main {
@@ -23,7 +23,7 @@ header {
   background-color: white;
 }
 
-.logo{
+.logo {
   width: 80px;
   height: 80px;
   padding: 10px;
@@ -46,8 +46,8 @@ header > .button {
   border-bottom-left-radius: 7rem;
   padding-left: 25px;
   padding-right: 25px;
-
 }
+
 .hero-section {
   background-image: url("../image/heroImage.jpg");
   background-size: cover;
@@ -87,7 +87,7 @@ ul {
   margin-left: 20px;
   margin-top: 5px;
   color: #505f79;
-  height:20px;
+  height: 20px;
   width: 20px;
 }
 
