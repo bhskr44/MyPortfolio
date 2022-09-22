@@ -102,5 +102,90 @@ ul {
 }
 
 .section2 {
-  margin-top: 200px;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.my-work{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.screenshot {
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.screenshot > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+}
+
+.my-work > .title > h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #172b4d;
+}
+
+.sub-headings > ul {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sub-headings > ul > .bold {
+  font-size: 13px;
+  color: #344563;
+  text-transform: uppercase;
+  marker: none;
+}
+
+.sub-headings > ul > .marked {
+  font-size: 13px;
+  color: #7a869a;
+  list-style-type: disc;
+}
+
+.section2 > .description {
+  font-size: 15px;
+  font-weight: regular;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-start; 
+}
+
+.tags > ul > li {
+  color: #6070ff;
+  margin-left: 10px;
+  background-color: #ebebff;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius:5px;
+}
+
+.seeproject > button {
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: #6070ff;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
 }
