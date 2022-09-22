@@ -1,6 +1,13 @@
 * {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #F7F7F9;
+}
+
+main {
+  margin: 0;
 }
 
 ::-webkit-scrollbar {
@@ -13,41 +20,58 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: white;
 }
 
-.logo > img {
+.logo{
   width: 80px;
   height: 80px;
   padding: 10px;
 }
 
-header > .button {
-  padding: 30px;
+.logo > h1 {
+  color: #6070ff;
+  font-size: 18px;
+  font-weight: bold;
 }
 
+header > .button {
+  padding: 15px;
+  color: #6070ff;
+}
+
+.section1 {
+  height: 550px;
+  background-color: white;
+  border-bottom-left-radius: 7rem;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
 .hero-section {
   background-image: url("../image/heroImage.jpg");
-  height: 100%;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 .title {
-  font-size: 30px;
-  margin: auto;
   text-align: left;
+  font-weight: bold;
 }
 
 .title > h1 {
+  font-size: 40px;
+  margin-top: 12px;
   margin-bottom: 0;
 }
 
 .description {
   margin: auto;
-  font-size: 14px;
+  font-size: 16px;
   text-align: left;
-  font-weight: normal;
+  font-weight: regular;
 }
 
 ul {
@@ -62,12 +86,17 @@ ul {
 .icons > ul > li {
   margin-left: 20px;
   margin-top: 5px;
+  color: #505f79;
+  height:20px;
+  width: 20px;
 }
 
 .icons > ul > li > a:hover { color: #7f8cff; }
 
 .social {
   color: #7f8cff;
+  font-weight: medium;
+  font-size: 16px;
 }
 
 .section2 {
