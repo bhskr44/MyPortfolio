@@ -1,5 +1,5 @@
 * {
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
@@ -63,8 +63,8 @@ ul {
   margin-top: 5px;
 }
 
-.icons > ul > li:hover { color: #7F8cff; }
+.icons > ul > li:hover { color: #7f8cff; }
 
 .social {
-  color: #7F8cff;
+  color: #7f8cff;
 }
