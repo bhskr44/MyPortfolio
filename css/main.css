@@ -10,12 +10,6 @@ main {
   margin: 0;
 }
 
-::-webkit-scrollbar {
-  width: 6px;
-  height: 10px;
-  display: none;
-}
-
 header {
   display: flex;
   flex-direction: row;
@@ -343,18 +337,20 @@ ul {
 
 ::-webkit-scrollbar {
   width: 10px;
+  height: 10px;
+  display: none;
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #6070ff; 
+  background: #6070ff;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #3847d4; 
+    background: #3847d4;
 }
