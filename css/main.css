@@ -189,3 +189,157 @@ ul {
   border-radius: 8px;
   display: flex;
 }
+
+.get-resume > button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: #6070ff;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+}
+
+.section3 {
+  background-color: white;
+  border-top-right-radius: 7rem;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.section3 > .about {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section3 > .about > h1 {
+  font-size: 40px;
+  font-weight: extrabold;
+  color: #172b4d;
+  margin: 0;
+}
+
+.accordation {
+  border-bottom: solid 1px rgb(160, 160, 160);
+}
+
+.accordation > .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.accordation > .title > h1 {
+  font-size: 20px;
+}
+
+.accordation > .title > .icon {
+  padding: 15px;;
+}
+
+.floating-elements {
+  background-color: #f7f7f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-radius: 8px;
+  margin-bottom: 10px
+}
+
+.single-elemnt {
+  display: flex;
+  padding: 15px;
+}
+
+
+.floating-elements > .single-elemnt > h2 {
+  font-size: 15px;
+  margin-left: 20px;
+  font-weight: normal;
+  padding-top:8px;
+}
+
+.floating-elements > .single-elemnt > img {
+  border-radius: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+}
+
+.section4{
+  background-color: #6070ff;
+  border-top-left-radius: 7rem;
+  padding-bottom:50px;
+  margin-left: -39px;
+  margin-right: -39px;
+  margin-top: 50px;
+  margin-bottom: -60px;
+}
+
+.contact-us{
+  margin-top: 30px;
+  padding-left: 0;
+  padding-left: 10px;
+  background-image: url("../image/contact-us.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.contact-header > h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.contact-header > .description > p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.form > input {
+  border-radius: 8px;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.form > .input-message {
+  border-radius: 8px;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.form > .submit-button {
+  border-radius: 8px;
+  width: 9rem;
+  margin-left: 10px;
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  margin-bottom: 15px;
+  font-weight: normal;
+  font-size: 17px;
+  color: #6070ff;
+}
