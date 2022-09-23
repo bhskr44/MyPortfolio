@@ -240,7 +240,7 @@ ul {
 }
 
 .accordation > .title > .icon {
-  padding: 15px;;
+  padding: 15px;
 }
 
 .floating-elements {
@@ -249,7 +249,7 @@ ul {
   flex-direction: row;
   justify-content: flex-start;
   border-radius: 8px;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .single-elemnt {
@@ -257,32 +257,30 @@ ul {
   padding: 15px;
 }
 
-
 .floating-elements > .single-elemnt > h2 {
   font-size: 15px;
   margin-left: 20px;
   font-weight: normal;
-  padding-top:8px;
+  padding-top: 8px;
 }
 
 .floating-elements > .single-elemnt > img {
   border-radius: 40px;
   width: 60px;
   height: 60px;
-  border-radius: 6px;
 }
 
-.section4{
+.section4 {
   background-color: #6070ff;
   border-top-left-radius: 7rem;
-  padding-bottom:50px;
+  padding-bottom: 50px;
   margin-left: -39px;
   margin-right: -39px;
   margin-top: 50px;
   margin-bottom: -60px;
 }
 
-.contact-us{
+.contact-us {
   margin-top: 30px;
   padding-left: 0;
   padding-left: 10px;
@@ -292,7 +290,7 @@ ul {
   background-position: right;
 }
 
-.contact-header > h1 {
+.contact-header > .c-header {
   font-size: 40px;
   font-weight: bold;
   padding-top: 100px;
@@ -301,7 +299,7 @@ ul {
   margin: 0;
 }
 
-.contact-header > .description > p {
+.contact-header > .description > .c-descrp {
   color: white;
   text-align: center;
   font-size: 20px;
@@ -336,7 +334,6 @@ ul {
   width: 9rem;
   margin-left: 10px;
   height: 50px;
-  font-size: 20px;
   background-color: white;
   margin-bottom: 15px;
   font-weight: normal;
