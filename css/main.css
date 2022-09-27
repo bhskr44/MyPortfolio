@@ -310,7 +310,7 @@ ul {
   padding: 20px;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
 }
@@ -341,8 +341,8 @@ form{
   padding-left: 15px;
 }
 
-.form > .textarea ::placeholder{
- color: #6c6e7e;
+.form > .textarea ::placeholder {
+  color: #6c6e7e;
 }
 
 .form > .submit-button {
