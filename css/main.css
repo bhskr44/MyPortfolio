@@ -312,26 +312,32 @@ ul {
 
 .form > input {
   border-radius: 8px;
-  width: 90%;
+  width: 85%;
   margin-left: 10px;
   margin-right: 10px;
   height: 40px;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   border: none;
   margin-bottom: 15px;
+  padding-left: 15px;
 }
 
 .form > .input-message {
   border-radius: 8px;
-  width: 90%;
+  width: 85%;
   margin-left: 10px;
   margin-right: 10px;
   height: 100px;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   border: none;
   margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.form > .textarea ::placeholder{
+ color: #6c6e7e;
 }
 
 .form > .submit-button {
