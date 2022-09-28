@@ -293,16 +293,13 @@ header > .button {
 
 .contact-us {
   background-color: #6070ff;
-  background-position: left top;
   background-repeat: no-repeat;
   border-top-left-radius: 7rem;
   display: flex;
   flex-direction: column;
   padding-left: 0;
   padding-left: 10px;
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
   overflow: hidden;
 }
 
@@ -339,12 +336,12 @@ header > .button {
 form {
   z-index: 19;
   padding: 5%;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-form input{
+form input {
   height: 48px;
   border-radius: 8px;
   padding: 0 10px;
@@ -353,7 +350,7 @@ form input{
 }
 
 
-form textarea{
+form textarea {
   height: 170px;
   border-radius: 8px;
   padding: 10px 10px;
@@ -361,7 +358,7 @@ form textarea{
   margin-bottom: 20px;
 }
 
-form input[type=submit]{
+form input[type=submit] {
   height: 48px;
   width: 140px;
   border-radius: 8px;
@@ -370,8 +367,7 @@ form input[type=submit]{
   margin-bottom: 20px;
 }
 
-
-.dash{
+.dash {
   border-bottom: 6px solid #0d151e;
   margin: 0 35%;
   border-radius: 10px;
