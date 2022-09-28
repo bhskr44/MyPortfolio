@@ -286,18 +286,18 @@ header > .button {
 .section4 {
   background-color: white;
   width: 100%;
+  overflow: hidden;
 }
 
 .contact-us {
   background-color: #6070ff;
   border-top-left-radius: 7rem;
+  display: grid;
   padding-left: 0;
   padding-left: 10px;
-  background-image: url("../image/contact-us.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-  padding-bottom: 20px;
 }
 
 .contact-header > .c-header {
@@ -314,6 +314,13 @@ header > .button {
   text-align: center;
   font-size: 20px;
   padding: 20px;
+}
+
+.contact-us img {
+  padding-top: 22px;
+  position: absolute;
+  padding-left: 160px;
+  overflow: hidden;
 }
 
 .form > input {
@@ -341,6 +348,7 @@ header > .button {
   font-weight: normal;
   border: none;
   margin-bottom: 15px;
+  z-index: 9999;
 }
 
 .form > .submit-button {
@@ -353,6 +361,12 @@ header > .button {
   font-weight: normal;
   font-size: 17px;
   color: #6070ff;
+}
+
+.dash{
+  border-bottom: 6px solid #0d151e;
+  margin: 0 35%;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar {
