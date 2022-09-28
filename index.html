@@ -259,57 +259,56 @@
 
       <section class="section4">
         <div class="contact-us">
-          <img src="image/contact-background.svg" />
-
-          <div class="contact-header">
-            <h1 class="c-header">Contact me</h1>
-            <div class="description">
-              <p class="c-descrp">
-                If you have an application you are interested in developing, a
-                feature that you need built or a project that needs coding. I’d
-                love to help with it.
-              </p>
+          <div class="background-image">
+            <div class="contact-header">
+              <h1 class="c-header">Contact me</h1>
+              <div class="description">
+                <p class="c-descrp">
+                  If you have an application you are interested in developing, a
+                  feature that you need built or a project that needs coding.
+                  I’d love to help with it.
+                </p>
+              </div>
             </div>
+
+            <form
+              class="form"
+              action="https://formspree.io/f/xyyvwool"
+              method="post"
+            >
+              <input
+                type="text"
+                name="name"
+                id="name"
+                maxlength="30"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+              <textarea
+                type="text"
+                name="message"
+                id="message"
+                rows="4"
+                maxlength="500"
+                placeholder="Write your message here"
+                class="input-message"
+                required
+              ></textarea>
+
+              <input
+                type="submit"
+                value="Get in Touch"
+                class="btn submit-button"
+              />
+            </form>
           </div>
-          <form
-            class="form"
-            action="https://formspree.io/f/xyyvwool"
-            method="post"
-          >
-            <input
-              type="text"
-              name="name"
-              id="name"
-              maxlength="30"
-              placeholder="Name"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              required
-            />
-            <textarea
-              type="text"
-              name="message"
-              id="message"
-              rows="4"
-              cols="50"
-              maxlength="500"
-              placeholder="Write your message here"
-              class="input-message"
-              required
-            ></textarea>
-
-            <input
-              type="submit"
-              value="Get in Touch"
-              class="btn submit-button"
-            />
-          </form>
-
           <div class="dash"></div>
         </div>
       </section>

@@ -10,6 +10,8 @@ body {
 
 main {
   margin: 0;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 header {
@@ -291,13 +293,24 @@ header > .button {
 
 .contact-us {
   background-color: #6070ff;
+  background-position: left top;
+  background-repeat: no-repeat;
   border-top-left-radius: 7rem;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   padding-left: 0;
   padding-left: 10px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
+  overflow: hidden;
+}
+
+.background-image {
+  background-image: url('../image/contact-background.svg');
+  background-repeat: no-repeat;
+  background-position: 139px 9px;
+  background-size: 305px 782px;
 }
 
 .contact-header > .c-header {
@@ -317,51 +330,46 @@ header > .button {
 }
 
 .contact-us img {
-  padding-top: 22px;
+  padding-top: 15px;
+  max-width: 100%;
   position: absolute;
-  padding-left: 160px;
-  overflow: hidden;
+  padding-left: 140px;
 }
 
-.form > input {
+form {
+  z-index: 19;
+  padding: 5%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+form input{
+  height: 48px;
   border-radius: 8px;
-  width: 90%;
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 40px;
-  padding: 10px;
-  text-align: left;
-  font-size: 20px;
+  padding: 0 10px;
   border: none;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-.form > .input-message {
+
+form textarea{
+  height: 170px;
   border-radius: 8px;
-  width: 90%;
-  padding: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 100px;
-  font-size: 15px;
-  text-align: left;
-  font-weight: normal;
+  padding: 10px 10px;
   border: none;
-  margin-bottom: 15px;
-  z-index: 9999;
+  margin-bottom: 20px;
 }
 
-.form > .submit-button {
+form input[type=submit]{
+  height: 48px;
+  width: 140px;
   border-radius: 8px;
-  width: 9rem;
-  margin-left: 10px;
-  height: 50px;
-  background-color: white;
-  margin-bottom: 15px;
-  font-weight: normal;
-  font-size: 17px;
-  color: #6070ff;
+  padding: 0 10px;
+  border: none;
+  margin-bottom: 20px;
 }
+
 
 .dash{
   border-bottom: 6px solid #0d151e;
