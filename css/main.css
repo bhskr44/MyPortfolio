@@ -79,7 +79,21 @@ header > .button {
   padding: 0;
 }
 
-.icons > ul > li > a:hover { color: #7f8cff; }
+.my-work a {
+  text-decoration: none;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  width: 120px;
+  padding: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.my-work a:hover {
+  color: white;
+  background-color: #396df2;;
+}
 
 .icons > ul > li > a {
   margin-right: 20px;
@@ -89,10 +103,11 @@ header > .button {
   width: 20px;
 }
 
+.icons > ul > li > a:hover { color: #7f8cff; }
+
 .accordation {
   padding-right: 10px;
 }
-
 
 .social > p {
   color: #7f8cff;
@@ -173,24 +188,23 @@ header > .button {
   font-size: 12px;
 }
 
+
+.mother-accordion li {
+  list-style-type: none;
+}
+
+.child-accordion li {
+  background-color: #f7f7f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
 .tech li:nth-child(1) {
   margin-left: -40px;
-}
-
-.my-work a {
-  text-decoration: none;
-  color: #396df2;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  width: 120px;
-  padding: 12px;
-  margin-top: 10px;
-  text-align: center;
-}
-
-.my-work a:hover {
-  color: white;
-  background-color: #396df2;;
 }
 
 .accordion {
@@ -200,16 +214,12 @@ header > .button {
 .accordion-item {
   display: block;
   margin-bottom: 50px;
-  border-bottom: 1px solid #505f79
+  border-bottom: 1px solid #505f79;
 }
 
 .mother-accordion {
   padding: 0;
   margin: 0;
-}
-
-.mother-accordion li {
-  list-style-type: none;
 }
 
 .mother-accordion h2 {
@@ -223,15 +233,6 @@ header > .button {
   padding: 0;
 }
 
-.child-accordion li {
-  background-color: #f7f7f9;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 8px;
-}
 
 .child-accordion div {
   display: flex;
@@ -323,7 +324,7 @@ header > .button {
   margin-left: 10px;
   margin-right: 10px;
   height: 40px;
-  padding:10px;
+  padding: 10px;
   text-align: left;
   font-size: 20px;
   border: none;
@@ -333,7 +334,7 @@ header > .button {
 .form > .input-message {
   border-radius: 8px;
   width: 90%;
-  padding:10px;
+  padding: 10px;
   margin-left: 10px;
   margin-right: 10px;
   height: 100px;
