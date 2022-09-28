@@ -363,6 +363,18 @@ form input[type=submit] {
   border-radius: 8px;
   padding: 0 10px;
   border: none;
+  color: #6070ff;
+  margin-bottom: 20px;
+}
+
+form input[type=submit]:hover {
+  height: 48px;
+  width: 140px;
+  border-radius: 8px;
+  padding: 0 10px;
+  border: 1px solid white;
+  color: white;
+  background: #6070ff;
   margin-bottom: 20px;
 }
 
