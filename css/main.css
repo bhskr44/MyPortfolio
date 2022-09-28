@@ -98,12 +98,12 @@ header > .button {
   width: 20px;
 }
 
-.icons > ul > li > a:hover { color: #7f8cff; }
-
 .my-work a:hover {
   color: white;
   background-color: #396df2;
 }
+
+.icons > ul > li > a:hover { color: #7f8cff; }
 
 .accordation {
   padding-right: 10px;
