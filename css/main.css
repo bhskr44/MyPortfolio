@@ -4,17 +4,19 @@
 
 body {
   background-color: #f7f7f9;
-  padding: 0;
-  margin: 0;
 }
 
 main {
   margin: 0;
-  overflow: scroll;
-  overflow-x: hidden;
 }
 
-header {
+::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+  display: none;
+}
+
+nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,15 +35,17 @@ header {
   font-weight: bold;
 }
 
-header > .button {
+nav > .button {
   padding: 15px;
   color: #6070ff;
 }
 
 .section1 {
+  height: 550px;
   background-color: white;
   border-bottom-left-radius: 7rem;
-  padding: 80px 5%;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .hero-section {
@@ -72,7 +76,7 @@ header > .button {
   color: #344563;
 }
 
-.icons > ul {
+ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
@@ -81,43 +85,26 @@ header > .button {
   padding: 0;
 }
 
-.my-work a {
-  text-decoration: none;
-  color: #396df2;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  width: 120px;
-  padding: 12px;
-  margin-top: 10px;
-  text-align: center;
-}
-
 .icons > ul > li > a {
-  margin-right: 20px;
+  margin-left: 20px;
   margin-top: 5px;
   color: #505f79;
   height: 20px;
   width: 20px;
 }
 
-.my-work a:hover {
-  color: white;
-  background-color: #396df2;
-}
-
 .icons > ul > li > a:hover { color: #7f8cff; }
 
-.accordation {
-  padding-right: 10px;
-}
-
-.social > p {
+.social {
   color: #7f8cff;
   font-weight: medium;
   font-size: 16px;
 }
 
 .section2 {
+<<<<<<< Updated upstream
+  margin-top: 200px;
+=======
   display: grid;
   grid-template-columns: auto;
   padding: 5%;
@@ -334,7 +321,6 @@ header > .button {
 }
 
 form {
-  z-index: 19;
   padding: 5%;
   display: flex;
   flex-direction: column;
@@ -402,4 +388,164 @@ form input[type=submit]:hover {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #3847d4;
+>>>>>>> Stashed changes
+}
+
+@media (max-width: 768px) {
+  nav .button {
+    display: block;
+  }
+
+  nav .destop-menu {
+    display: none;
+  }
+  
+  .dash {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .my-work {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .my-work img,
+  .my-work-body {
+    width: 100%;
+  }
+
+  .my-work:nth-child(2n){
+    flex-direction: row-reverse
+  }
+  .tech {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .my-work p {
+    margin-top: 15px;
+  }
+  .position-container ul {
+    justify-content: flex-start;
+  }
+  .position-container li {
+    margin-right: 50px;
+  }
+
+  .section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+  }
+  
+  .about,
+  .accordion {
+    width: 100%;
+  }
+
+  .child-accordion {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .child-accordion li {
+    margin-right: 10px;
+  }
+
+  .language-name{
+    flex-direction: column;
+  }
+
+  .language-name span {
+    align-items: left;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .background-image {
+    background-image: url('../image/contact-pc-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 1135px 720px;
+    background-position: center;
+    padding: 0 33%;
+  }
+
+  form {
+    align-items: center;
+  }
+
+  form input {
+    width: 90%;
+    border-radius: 0;
+  }
+  
+  form textarea {
+    width: 90%;
+    border-radius: 0;
+  }
+
+  .hero-section {
+    background-image: url("../image/desktop-header-bg.svg");
+    background-size: cover;
+    display: flex;
+    background-size: 1080px 720px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom-left-radius: 10rem;
+    background-position: center;
+  }
+
+  .hero-section .title {
+    font-size: 48px;
+    font-weight: normal;
+  }
+
+  .hero-section .child {
+    padding: 100px;
+  }  
+
+  .hero-section p {
+    font-size: 20px;
+    width: 65%;
+  }
+
+  .section1 {
+    border-bottom-left-radius: 19rem;
+  }
+
+  nav { 
+    padding: 0 190px;
+  }
+
+  nav .logo {
+    font-size: 18px;
+  }
+
+  nav .button {
+    display: none;
+  }
+
+  nav .destop-menu {
+    display: block;
+    padding-top: 15px;
+  }
+
+  .destop-menu ul {
+   display: flex;
+  }
+
+  .destop-menu li {
+    list-style-type: none;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: normal;
+  }
+
+  .dash {
+    display: none;
+  }
 }
